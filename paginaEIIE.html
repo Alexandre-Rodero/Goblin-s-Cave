@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goblin's Cave - Tienda D&D</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #34495e;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        section {
+            padding: 20px;
+        }
+        .product {
+            border: 2px solid #ecf0f1;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 10px;
+            background-color: #1abc9c;
+        }
+        .product h2 {
+            color: black;
+        }
+        .product .price {
+            font-size: 1.2em;
+            color: beige;
+        }
+        .product ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .product ul li {
+            margin: 5px 0;
+        }
+        footer {
+            background-color: #34495e;
+            text-align: center;
+            padding: 10px;
+            color: #ecf0f1;
+        }
+        .survey-section {
+            background-color: #e74c3c;
+            color: #ecf0f1;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .survey-section h3 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+        .survey-section p {
+            font-size: 1.2em;
+        }
+        .qr-code {
+            margin-top: 20px;
+        }
+        .qr-code img {
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Goblin's Cave - Tienda D&D</h1>
+        <p>Bienvenidos a la tienda para todos los aventureros y fanáticos de Dungeons & Dragons.</p>
+    </header>
+
+    <section>
+        <div class="product">
+            <h2>Figuretes de D&D</h2>
+            <p><strong>Marca:</strong> Wizards of the Coast</p>
+            <p><strong>Descripción:</strong> Miniaturas que representan personajes relacionados con las sesiones de D&D, ya sean los jugadores, el DM o otros personajes. Las figuras pueden estar diseñadas según la descripción exacta de los personajes.</p>
+            <p><strong>Características principales:</strong></p>
+            <ul>
+                <li>Miniaturas detalladas y pintadas a mano.</li>
+                <li>Representaciones fieles de personajes de la aventura.</li>
+                <li>Modelos para jugadores, DM y NPCs.</li>
+            </ul>
+            <p class="price">Precio: Entre 3€ y 40€ (puede variar)</p>
+        </div>
+
+        <div class="product">
+            <h2>Juegos de D&D</h2>
+            <p><strong>Marca:</strong> Wizards of the Coast</p>
+            <p><strong>Descripción:</strong> Juegos de rol de mesa donde los jugadores asumen el rol de personajes ficticios en un mundo fantástico, explorando aventuras dirigidas por un Dungeon Master (DM) que narra y arbitra la partida.</p>
+            <p><strong>Características principales:</strong></p>
+            <ul>
+                <li>Incluye un tablero, set de dados, manual de reglas y más.</li>
+                <li>Ideal para grupos de 2 a 6 jugadores.</li>
+                <li>Expande tus aventuras con suplementos adicionales.</li>
+            </ul>
+            <p class="price">Precio: Entre 25€ y 70€ (puede variar)</p>
+        </div>
+
+        <div class="product">
+            <h2>Llibres de Regles de D&D</h2>
+            <p><strong>Marca:</strong> Wizards of the Coast</p>
+            <p><strong>Descripción:</strong> Libros que contienen todo lo necesario para aprender a jugar a D&D y sus expansiones. Estos libros son fundamentales para jugadores y Dungeon Masters.</p>
+            <p><strong>Características principales:</strong></p>
+            <ul>
+                <li>Libro de tapa dura, de gran calidad.</li>
+                <li>Expande las reglas del juego y ofrece nuevas opciones.</li>
+                <li>Ideal para jugadores y DM que deseen profundizar en el mundo de D&D.</li>
+            </ul>
+            <p class="price">Precio: 39,99€</p>
+        </div>
+    </section>
+
+    <!-- Sección de Encuesta y QR -->
+    <section class="survey-section">
+        <h3>¡Nos gustaría saber tu opinión!</h3>
+        <p>Haz clic en el enlace de abajo para completar nuestra encuesta y ayudarnos a mejorar nuestros productos y servicios.</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJonESHYAdGAbtcPUQ4YkKOr4Bz_5XwqaIUO_2q0ip8j4pRg/viewform?usp=dialog" target="_blank">
+            <button style="padding: 10px 20px; font-size: 1.2em; background-color: #16a085; border: none; color: white; cursor: pointer;">Ir a la Encuesta</button>
+        </a>
+        <div class="qr-code">
+            <p>O escanea este código QR para acceder a la encuesta:</p>
+            <!-- Aquí va el enlace de la imagen del QR -->
+            <img src="qrcode_171404221_56e5c163826ed94c57c3244398dfc4f1.png" alt="https://drive.google.com/file/d/1ieHXv1cno0rmPsh6TnggBFTNiJp_Wc6X/view?usp=drive_link">
+        </div>
+    </section>
+
+    <footer>
+        <p>Goblin's Cave - ¡Tu refugio de Dungeons & Dragons!</p>
+    </footer>
+
+</body>
+</html>
